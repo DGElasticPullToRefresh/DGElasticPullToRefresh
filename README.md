@@ -5,14 +5,14 @@ Inspired by this Dribbble post: [Pull Down to Refresh](https://dribbble.com/shot
 
 Tutorial on how this bounce effect was achieved can be found [here](https://medium.com/@gontovnik/elastic-view-animation-or-how-i-built-dgelasticpulltorefresh-269a3ba8636e#.9dioekqv6).
 
-![](https://raw.githubusercontent.com/gontovnik/DGElasticPullToRefresh/master/DGElasticPullToRefreshPreview1.gif)
-![](https://raw.githubusercontent.com/gontovnik/DGElasticPullToRefresh/master/DGElasticPullToRefreshPreview2.gif)
+![](https://raw.githubusercontent.com/DGElasticPullToRefresh/DGElasticPullToRefresh/master/DGElasticPullToRefreshPreview1.gif)
+![](https://raw.githubusercontent.com/DGElasticPullToRefresh/DGElasticPullToRefresh/master/DGElasticPullToRefreshPreview2.gif)
 
 ## Requirements
-* Xcode 7 or higher
-* iOS 8.0 or higher (may work on previous versions, just did not test it)
+* Xcode 8 or higher
+* iOS 10 or higher (may work on previous versions, just did not test it)
 * ARC
-* Swift 3.0
+* Swift 4.2
 
 ## Demo
 
