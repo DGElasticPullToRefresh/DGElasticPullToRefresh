@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "DGElasticPullToRefresh2"
   spec.version      = "1.0.0"
-  spec.authors      = { "Kimmy" => "upcwangying@gamil.com" }
+  spec.authors      = { "Kimmy" => "upcwangying@gmail.com" }
   spec.homepage     = "https://github.com/DGElasticPullToRefresh/DGElasticPullToRefresh"
   spec.summary      = "Elastic pull to refresh compontent developed in Swift"
   spec.source       = { :git => "https://github.com/DGElasticPullToRefresh/DGElasticPullToRefresh.git",
