@@ -1,4 +1,4 @@
-# DGElasticPullToRefresh
+# DGElasticPullToRefresh2
 Elastic pull to refresh compontent developed in Swift
 
 Inspired by this Dribbble post: [Pull Down to Refresh](https://dribbble.com/shots/2232385-Pull-Down-to-Refresh) by [Hoang Nguyen](https://dribbble.com/Hoanguyen)
@@ -23,12 +23,8 @@ Open and run the DGElasticPullToRefreshExample project in Xcode to see DGElastic
 ### CocoaPods
 
 ``` ruby
-pod 'DGElasticPullToRefresh'
+pod 'DGElasticPullToRefresh2'
 ```
-
-### Manual
-
-Add DGElasticPullToRefresh folder into your project.
 
 ## Example usage
 
