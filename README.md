@@ -26,6 +26,10 @@ Open and run the DGElasticPullToRefreshExample project in Xcode to see DGElastic
 pod 'DGElasticPullToRefresh2'
 ```
 
+### Manual
+
+Add DGElasticPullToRefresh2 folder into your project.
+
 ## Example usage
 
 ``` swift

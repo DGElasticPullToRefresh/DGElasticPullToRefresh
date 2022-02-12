@@ -21,7 +21,7 @@
 		2E97910727B7F7A900935E31 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910627B7F7A900935E31 /* README.md */; };
 		2E97910A27B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910827B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif */; };
 		2E97910B27B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910927B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif */; };
-		2E97910D27B7F7BD00935E31 /* DGElasticPullToRefresh.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh.podspec */; };
+		2E97910D27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec */; };
 		2E97910F27B7FB5E00935E31 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910E27B7FB5E00935E31 /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,7 @@
 		2E97910627B7F7A900935E31 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2E97910827B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DGElasticPullToRefreshPreview2.gif; sourceTree = "<group>"; };
 		2E97910927B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DGElasticPullToRefreshPreview1.gif; sourceTree = "<group>"; };
-		2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DGElasticPullToRefresh.podspec; sourceTree = "<group>"; };
+		2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DGElasticPullToRefresh2.podspec; sourceTree = "<group>"; };
 		2E97910E27B7FB5E00935E31 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +57,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05B92F861BD25E7B006D60FB /* DGElasticPullToRefresh */ = {
+		05B92F861BD25E7B006D60FB /* DGElasticPullToRefresh2 */ = {
 			isa = PBXGroup;
 			children = (
 				05B92F871BD25E7B006D60FB /* DGElasticPullToRefreshConstants.swift */,
@@ -66,7 +66,7 @@
 				05B92F8A1BD25E7B006D60FB /* DGElasticPullToRefreshLoadingViewCircle.swift */,
 				05B92F8B1BD25E7B006D60FB /* DGElasticPullToRefreshView.swift */,
 			);
-			path = DGElasticPullToRefresh;
+			path = DGElasticPullToRefresh2;
 			sourceTree = SOURCE_ROOT;
 		};
 		05CD145C1BBE8FEA00AF4030 = {
@@ -77,7 +77,7 @@
 				2E97910627B7F7A900935E31 /* README.md */,
 				2E97910927B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif */,
 				2E97910827B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif */,
-				2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh.podspec */,
+				2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec */,
 				05CD14671BBE8FEA00AF4030 /* DGElasticPullToRefreshExample */,
 				05CD14661BBE8FEA00AF4030 /* Products */,
 			);
@@ -94,7 +94,7 @@
 		05CD14671BBE8FEA00AF4030 /* DGElasticPullToRefreshExample */ = {
 			isa = PBXGroup;
 			children = (
-				05B92F861BD25E7B006D60FB /* DGElasticPullToRefresh */,
+				05B92F861BD25E7B006D60FB /* DGElasticPullToRefresh2 */,
 				05CD14681BBE8FEA00AF4030 /* AppDelegate.swift */,
 				05CD146A1BBE8FEA00AF4030 /* ViewController.swift */,
 				05FAB8BD1BBEF115004922F1 /* NavigationController.swift */,
@@ -170,7 +170,7 @@
 				05CD14731BBE8FEA00AF4030 /* LaunchScreen.storyboard in Resources */,
 				2E97910727B7F7A900935E31 /* README.md in Resources */,
 				2E97910A27B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif in Resources */,
-				2E97910D27B7F7BD00935E31 /* DGElasticPullToRefresh.podspec in Resources */,
+				2E97910D27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec in Resources */,
 				05CD14701BBE8FEA00AF4030 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
