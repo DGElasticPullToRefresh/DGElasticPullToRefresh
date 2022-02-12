@@ -23,6 +23,7 @@
 		2E97910B27B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910927B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif */; };
 		2E97910D27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec */; };
 		2E97910F27B7FB5E00935E31 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910E27B7FB5E00935E31 /* .gitignore */; };
+		2E97911127B801E700935E31 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 2E97911027B801E700935E31 /* .swift-version */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		2E97910927B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DGElasticPullToRefreshPreview1.gif; sourceTree = "<group>"; };
 		2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DGElasticPullToRefresh2.podspec; sourceTree = "<group>"; };
 		2E97910E27B7FB5E00935E31 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2E97911027B801E700935E31 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		05CD145C1BBE8FEA00AF4030 = {
 			isa = PBXGroup;
 			children = (
+				2E97911027B801E700935E31 /* .swift-version */,
 				2E97910E27B7FB5E00935E31 /* .gitignore */,
 				2E97910427B7F7A300935E31 /* LICENSE */,
 				2E97910627B7F7A900935E31 /* README.md */,
@@ -168,6 +171,7 @@
 				2E97910B27B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif in Resources */,
 				2E97910527B7F7A300935E31 /* LICENSE in Resources */,
 				05CD14731BBE8FEA00AF4030 /* LaunchScreen.storyboard in Resources */,
+				2E97911127B801E700935E31 /* .swift-version in Resources */,
 				2E97910727B7F7A900935E31 /* README.md in Resources */,
 				2E97910A27B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif in Resources */,
 				2E97910D27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec in Resources */,
