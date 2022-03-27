@@ -72,10 +72,10 @@ func kmy_addPullToRefreshWithActionHandler(_ actionHandler: @escaping () -> Void
 Add pull to refresh with loading view:
 
 ``` swift
-func kmy_addPullToRefreshWithActionHandler(_ actionHandler: @escaping () -> Void, loadingView: DGElasticPullToRefreshLoadingView?)
+func kmy_addPullToRefreshWithActionHandler(_ actionHandler: @escaping () -> Void, loadingView: KMYElasticPullToRefreshLoadingView?)
 ```
 
-You can use built-in *DGElasticPullToRefreshLoadingViewCircle* or create your own by subclassing **DGElasticPullToRefreshLoadingView** and implementing these methods:
+You can use built-in *KMYElasticPullToRefreshLoadingViewCircle* or create your own by subclassing **KMYElasticPullToRefreshLoadingView** and implementing these methods:
 
 ``` swift
 func setPullProgress(_ progress: CGFloat)
