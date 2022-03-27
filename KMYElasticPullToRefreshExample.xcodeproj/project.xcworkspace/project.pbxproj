@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B92F8C1BD25E7B006D60FB /* DGElasticPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B92F871BD25E7B006D60FB /* DGElasticPullToRefreshConstants.swift */; };
-		05B92F8D1BD25E7B006D60FB /* DGElasticPullToRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B92F881BD25E7B006D60FB /* DGElasticPullToRefreshExtensions.swift */; };
-		05B92F8E1BD25E7B006D60FB /* DGElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B92F891BD25E7B006D60FB /* DGElasticPullToRefreshLoadingView.swift */; };
-		05B92F8F1BD25E7B006D60FB /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B92F8A1BD25E7B006D60FB /* DGElasticPullToRefreshLoadingViewCircle.swift */; };
-		05B92F901BD25E7B006D60FB /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B92F8B1BD25E7B006D60FB /* DGElasticPullToRefreshView.swift */; };
+		05B92F8C1BD25E7B006D60FB /* KMYElasticPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B92F871BD25E7B006D60FB /* KMYElasticPullToRefreshConstants.swift */; };
+		05B92F8D1BD25E7B006D60FB /* KMYElasticPullToRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B92F881BD25E7B006D60FB /* KMYElasticPullToRefreshExtensions.swift */; };
+		05B92F8E1BD25E7B006D60FB /* KMYElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B92F891BD25E7B006D60FB /* KMYElasticPullToRefreshLoadingView.swift */; };
+		05B92F8F1BD25E7B006D60FB /* KMYElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B92F8A1BD25E7B006D60FB /* KMYElasticPullToRefreshLoadingViewCircle.swift */; };
+		05B92F901BD25E7B006D60FB /* KMYElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B92F8B1BD25E7B006D60FB /* KMYElasticPullToRefreshView.swift */; };
 		05CD14691BBE8FEA00AF4030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD14681BBE8FEA00AF4030 /* AppDelegate.swift */; };
 		05CD146B1BBE8FEA00AF4030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD146A1BBE8FEA00AF4030 /* ViewController.swift */; };
 		05CD14701BBE8FEA00AF4030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CD146F1BBE8FEA00AF4030 /* Assets.xcassets */; };
@@ -19,20 +19,20 @@
 		05FAB8BE1BBEF115004922F1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FAB8BD1BBEF115004922F1 /* NavigationController.swift */; };
 		2E97910527B7F7A300935E31 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910427B7F7A300935E31 /* LICENSE */; };
 		2E97910727B7F7A900935E31 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910627B7F7A900935E31 /* README.md */; };
-		2E97910A27B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910827B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif */; };
-		2E97910B27B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910927B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif */; };
-		2E97910D27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec */; };
+		2E97910A27B7F7B500935E31 /* KMYElasticPullToRefreshPreview2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910827B7F7B500935E31 /* KMYElasticPullToRefreshPreview2.gif */; };
+		2E97910B27B7F7B500935E31 /* KMYElasticPullToRefreshPreview1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910927B7F7B500935E31 /* KMYElasticPullToRefreshPreview1.gif */; };
+		2E97910D27B7F7BD00935E31 /* KMYElasticPullToRefresh.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910C27B7F7BD00935E31 /* KMYElasticPullToRefresh.podspec */; };
 		2E97910F27B7FB5E00935E31 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2E97910E27B7FB5E00935E31 /* .gitignore */; };
 		2E97911127B801E700935E31 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 2E97911027B801E700935E31 /* .swift-version */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05B92F871BD25E7B006D60FB /* DGElasticPullToRefreshConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshConstants.swift; sourceTree = "<group>"; };
-		05B92F881BD25E7B006D60FB /* DGElasticPullToRefreshExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshExtensions.swift; sourceTree = "<group>"; };
-		05B92F891BD25E7B006D60FB /* DGElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
-		05B92F8A1BD25E7B006D60FB /* DGElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
-		05B92F8B1BD25E7B006D60FB /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
-		05CD14651BBE8FEA00AF4030 /* DGElasticPullToRefreshExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGElasticPullToRefreshExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B92F871BD25E7B006D60FB /* KMYElasticPullToRefreshConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMYElasticPullToRefreshConstants.swift; sourceTree = "<group>"; };
+		05B92F881BD25E7B006D60FB /* KMYElasticPullToRefreshExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMYElasticPullToRefreshExtensions.swift; sourceTree = "<group>"; };
+		05B92F891BD25E7B006D60FB /* KMYElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMYElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
+		05B92F8A1BD25E7B006D60FB /* KMYElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMYElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
+		05B92F8B1BD25E7B006D60FB /* KMYElasticPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMYElasticPullToRefreshView.swift; sourceTree = "<group>"; };
+		05CD14651BBE8FEA00AF4030 /* KMYElasticPullToRefreshExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMYElasticPullToRefreshExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05CD14681BBE8FEA00AF4030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05CD146A1BBE8FEA00AF4030 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05CD146F1BBE8FEA00AF4030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,9 +41,9 @@
 		05FAB8BD1BBEF115004922F1 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		2E97910427B7F7A300935E31 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2E97910627B7F7A900935E31 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2E97910827B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DGElasticPullToRefreshPreview2.gif; sourceTree = "<group>"; };
-		2E97910927B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DGElasticPullToRefreshPreview1.gif; sourceTree = "<group>"; };
-		2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DGElasticPullToRefresh2.podspec; sourceTree = "<group>"; };
+		2E97910827B7F7B500935E31 /* KMYElasticPullToRefreshPreview2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = KMYElasticPullToRefreshPreview2.gif; sourceTree = "<group>"; };
+		2E97910927B7F7B500935E31 /* KMYElasticPullToRefreshPreview1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = KMYElasticPullToRefreshPreview1.gif; sourceTree = "<group>"; };
+		2E97910C27B7F7BD00935E31 /* KMYElasticPullToRefresh.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.podspec; path = KMYElasticPullToRefresh.podspec; sourceTree = "<group>"; };
 		2E97910E27B7FB5E00935E31 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2E97911027B801E700935E31 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,16 +59,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05B92F861BD25E7B006D60FB /* DGElasticPullToRefresh2 */ = {
+		05B92F861BD25E7B006D60FB /* KMYElasticPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				05B92F871BD25E7B006D60FB /* DGElasticPullToRefreshConstants.swift */,
-				05B92F881BD25E7B006D60FB /* DGElasticPullToRefreshExtensions.swift */,
-				05B92F891BD25E7B006D60FB /* DGElasticPullToRefreshLoadingView.swift */,
-				05B92F8A1BD25E7B006D60FB /* DGElasticPullToRefreshLoadingViewCircle.swift */,
-				05B92F8B1BD25E7B006D60FB /* DGElasticPullToRefreshView.swift */,
+				05B92F871BD25E7B006D60FB /* KMYElasticPullToRefreshConstants.swift */,
+				05B92F881BD25E7B006D60FB /* KMYElasticPullToRefreshExtensions.swift */,
+				05B92F891BD25E7B006D60FB /* KMYElasticPullToRefreshLoadingView.swift */,
+				05B92F8A1BD25E7B006D60FB /* KMYElasticPullToRefreshLoadingViewCircle.swift */,
+				05B92F8B1BD25E7B006D60FB /* KMYElasticPullToRefreshView.swift */,
 			);
-			path = DGElasticPullToRefresh2;
+			path = KMYElasticPullToRefresh;
 			sourceTree = SOURCE_ROOT;
 		};
 		05CD145C1BBE8FEA00AF4030 = {
@@ -78,10 +78,10 @@
 				2E97910E27B7FB5E00935E31 /* .gitignore */,
 				2E97910427B7F7A300935E31 /* LICENSE */,
 				2E97910627B7F7A900935E31 /* README.md */,
-				2E97910927B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif */,
-				2E97910827B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif */,
-				2E97910C27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec */,
-				05CD14671BBE8FEA00AF4030 /* DGElasticPullToRefreshExample */,
+				2E97910927B7F7B500935E31 /* KMYElasticPullToRefreshPreview1.gif */,
+				2E97910827B7F7B500935E31 /* KMYElasticPullToRefreshPreview2.gif */,
+				2E97910C27B7F7BD00935E31 /* KMYElasticPullToRefresh.podspec */,
+				05CD14671BBE8FEA00AF4030 /* KMYElasticPullToRefreshExample */,
 				05CD14661BBE8FEA00AF4030 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,15 +89,15 @@
 		05CD14661BBE8FEA00AF4030 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05CD14651BBE8FEA00AF4030 /* DGElasticPullToRefreshExample.app */,
+				05CD14651BBE8FEA00AF4030 /* KMYElasticPullToRefreshExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05CD14671BBE8FEA00AF4030 /* DGElasticPullToRefreshExample */ = {
+		05CD14671BBE8FEA00AF4030 /* KMYElasticPullToRefreshExample */ = {
 			isa = PBXGroup;
 			children = (
-				05B92F861BD25E7B006D60FB /* DGElasticPullToRefresh2 */,
+				05B92F861BD25E7B006D60FB /* KMYElasticPullToRefresh */,
 				05CD14681BBE8FEA00AF4030 /* AppDelegate.swift */,
 				05CD146A1BBE8FEA00AF4030 /* ViewController.swift */,
 				05FAB8BD1BBEF115004922F1 /* NavigationController.swift */,
@@ -105,15 +105,15 @@
 				05CD14711BBE8FEA00AF4030 /* LaunchScreen.storyboard */,
 				05CD14741BBE8FEA00AF4030 /* Info.plist */,
 			);
-			path = DGElasticPullToRefreshExample;
+			path = KMYElasticPullToRefreshExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05CD14641BBE8FEA00AF4030 /* DGElasticPullToRefreshExample */ = {
+		05CD14641BBE8FEA00AF4030 /* KMYElasticPullToRefreshExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05CD14771BBE8FEA00AF4030 /* Build configuration list for PBXNativeTarget "DGElasticPullToRefreshExample" */;
+			buildConfigurationList = 05CD14771BBE8FEA00AF4030 /* Build configuration list for PBXNativeTarget "KMYElasticPullToRefreshExample" */;
 			buildPhases = (
 				05CD14611BBE8FEA00AF4030 /* Sources */,
 				05CD14621BBE8FEA00AF4030 /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = DGElasticPullToRefreshExample;
-			productName = DGElasticPullToRefreshExample;
-			productReference = 05CD14651BBE8FEA00AF4030 /* DGElasticPullToRefreshExample.app */;
+			name = KMYElasticPullToRefreshExample;
+			productName = KMYElasticPullToRefreshExample;
+			productReference = 05CD14651BBE8FEA00AF4030 /* KMYElasticPullToRefreshExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 05CD14601BBE8FEA00AF4030 /* Build configuration list for PBXProject "DGElasticPullToRefreshExample" */;
+			buildConfigurationList = 05CD14601BBE8FEA00AF4030 /* Build configuration list for PBXProject "KMYElasticPullToRefreshExample" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -157,7 +157,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05CD14641BBE8FEA00AF4030 /* DGElasticPullToRefreshExample */,
+				05CD14641BBE8FEA00AF4030 /* KMYElasticPullToRefreshExample */,
 			);
 		};
 /* End PBXProject section */
@@ -168,13 +168,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E97910F27B7FB5E00935E31 /* .gitignore in Resources */,
-				2E97910B27B7F7B500935E31 /* DGElasticPullToRefreshPreview1.gif in Resources */,
+				2E97910B27B7F7B500935E31 /* KMYElasticPullToRefreshPreview1.gif in Resources */,
 				2E97910527B7F7A300935E31 /* LICENSE in Resources */,
 				05CD14731BBE8FEA00AF4030 /* LaunchScreen.storyboard in Resources */,
 				2E97911127B801E700935E31 /* .swift-version in Resources */,
 				2E97910727B7F7A900935E31 /* README.md in Resources */,
-				2E97910A27B7F7B500935E31 /* DGElasticPullToRefreshPreview2.gif in Resources */,
-				2E97910D27B7F7BD00935E31 /* DGElasticPullToRefresh2.podspec in Resources */,
+				2E97910A27B7F7B500935E31 /* KMYElasticPullToRefreshPreview2.gif in Resources */,
+				2E97910D27B7F7BD00935E31 /* KMYElasticPullToRefresh.podspec in Resources */,
 				05CD14701BBE8FEA00AF4030 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,14 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B92F8C1BD25E7B006D60FB /* DGElasticPullToRefreshConstants.swift in Sources */,
+				05B92F8C1BD25E7B006D60FB /* KMYElasticPullToRefreshConstants.swift in Sources */,
 				05CD146B1BBE8FEA00AF4030 /* ViewController.swift in Sources */,
-				05B92F901BD25E7B006D60FB /* DGElasticPullToRefreshView.swift in Sources */,
-				05B92F8E1BD25E7B006D60FB /* DGElasticPullToRefreshLoadingView.swift in Sources */,
+				05B92F901BD25E7B006D60FB /* KMYElasticPullToRefreshView.swift in Sources */,
+				05B92F8E1BD25E7B006D60FB /* KMYElasticPullToRefreshLoadingView.swift in Sources */,
 				05FAB8BE1BBEF115004922F1 /* NavigationController.swift in Sources */,
-				05B92F8F1BD25E7B006D60FB /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
+				05B92F8F1BD25E7B006D60FB /* KMYElasticPullToRefreshLoadingViewCircle.swift in Sources */,
 				05CD14691BBE8FEA00AF4030 /* AppDelegate.swift in Sources */,
-				05B92F8D1BD25E7B006D60FB /* DGElasticPullToRefreshExtensions.swift in Sources */,
+				05B92F8D1BD25E7B006D60FB /* KMYElasticPullToRefreshExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,11 +298,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DGElasticPullToRefreshExample/Info.plist;
+				INFOPLIST_FILE = KMYElasticPullToRefreshExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gatafan.DGElasticPullToRefreshExample;
-				PRODUCT_NAME = DGElasticPullToRefreshExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gatafan.KMYElasticPullToRefreshExample;
+				PRODUCT_NAME = KMYElasticPullToRefreshExample;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -311,11 +311,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DGElasticPullToRefreshExample/Info.plist;
+				INFOPLIST_FILE = KMYElasticPullToRefreshExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gatafan.DGElasticPullToRefreshExample;
-				PRODUCT_NAME = DGElasticPullToRefreshExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gatafan.KMYElasticPullToRefreshExample;
+				PRODUCT_NAME = KMYElasticPullToRefreshExample;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05CD14601BBE8FEA00AF4030 /* Build configuration list for PBXProject "DGElasticPullToRefreshExample" */ = {
+		05CD14601BBE8FEA00AF4030 /* Build configuration list for PBXProject "KMYElasticPullToRefreshExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05CD14751BBE8FEA00AF4030 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05CD14771BBE8FEA00AF4030 /* Build configuration list for PBXNativeTarget "DGElasticPullToRefreshExample" */ = {
+		05CD14771BBE8FEA00AF4030 /* Build configuration list for PBXNativeTarget "KMYElasticPullToRefreshExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05CD14781BBE8FEA00AF4030 /* Debug */,

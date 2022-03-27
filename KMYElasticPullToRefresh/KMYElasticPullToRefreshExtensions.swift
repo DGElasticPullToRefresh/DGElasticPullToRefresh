@@ -35,41 +35,41 @@ public extension NSObject {
     // MARK: -
     // MARK: Vars
     
-    fileprivate struct dg_associatedKeys {
+    fileprivate struct kmy_associatedKeys {
         static var observersArray = "observers"
     }
     
-    fileprivate var dg_observers: [[String : NSObject]] {
+    fileprivate var kmy_observers: [[String : NSObject]] {
         get {
-            if let observers = objc_getAssociatedObject(self, &dg_associatedKeys.observersArray) as? [[String : NSObject]] {
+            if let observers = objc_getAssociatedObject(self, &kmy_associatedKeys.observersArray) as? [[String : NSObject]] {
                 return observers
             } else {
                 let observers = [[String : NSObject]]()
-                self.dg_observers = observers
+                self.kmy_observers = observers
                 return observers
             }
         } set {
-            objc_setAssociatedObject(self, &dg_associatedKeys.observersArray, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            objc_setAssociatedObject(self, &kmy_associatedKeys.observersArray, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
     
     // MARK: -
     // MARK: Methods
     
-    public func dg_addObserver(_ observer: NSObject, forKeyPath keyPath: String) {
+    public func kmy_addObserver(_ observer: NSObject, forKeyPath keyPath: String) {
         let observerInfo = [keyPath : observer]
         
-        if dg_observers.index(where: { $0 == observerInfo }) == nil {
-            dg_observers.append(observerInfo)
+        if kmy_observers.index(where: { $0 == observerInfo }) == nil {
+            kmy_observers.append(observerInfo)
             addObserver(observer, forKeyPath: keyPath, options: .new, context: nil)
         }
     }
     
-    public func dg_removeObserver(_ observer: NSObject, forKeyPath keyPath: String) {
+    public func kmy_removeObserver(_ observer: NSObject, forKeyPath keyPath: String) {
         let observerInfo = [keyPath : observer]
         
-        if let index = dg_observers.index(where: { $0 == observerInfo}) {
-            dg_observers.remove(at: index)
+        if let index = kmy_observers.index(where: { $0 == observerInfo}) {
+            kmy_observers.remove(at: index)
             removeObserver(observer, forKeyPath: keyPath)
         }
     }
@@ -83,27 +83,27 @@ public extension UIScrollView {
     
     // MARK: - Vars
 
-    fileprivate struct dg_associatedKeys {
+    fileprivate struct kmy_associatedKeys {
         static var pullToRefreshView = "pullToRefreshView"
     }
 
-    fileprivate var pullToRefreshView: DGElasticPullToRefreshView? {
+    fileprivate var pullToRefreshView: KMYElasticPullToRefreshView? {
         get {
-            return objc_getAssociatedObject(self, &dg_associatedKeys.pullToRefreshView) as? DGElasticPullToRefreshView
+            return objc_getAssociatedObject(self, &kmy_associatedKeys.pullToRefreshView) as? KMYElasticPullToRefreshView
         }
 
         set {
-            objc_setAssociatedObject(self, &dg_associatedKeys.pullToRefreshView, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            objc_setAssociatedObject(self, &kmy_associatedKeys.pullToRefreshView, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
     
     // MARK: - Methods (Public)
     
-    public func dg_addPullToRefreshWithActionHandler(_ actionHandler: @escaping () -> Void, loadingView: DGElasticPullToRefreshLoadingView?) {
+    public func kmy_addPullToRefreshWithActionHandler(_ actionHandler: @escaping () -> Void, loadingView: KMYElasticPullToRefreshLoadingView?) {
         isMultipleTouchEnabled = false
         panGestureRecognizer.maximumNumberOfTouches = 1
 
-        let pullToRefreshView = DGElasticPullToRefreshView()
+        let pullToRefreshView = KMYElasticPullToRefreshView()
         self.pullToRefreshView = pullToRefreshView
         pullToRefreshView.actionHandler = actionHandler
         pullToRefreshView.loadingView = loadingView
@@ -112,25 +112,25 @@ public extension UIScrollView {
         pullToRefreshView.observing = true
     }
     
-    public func dg_removePullToRefresh() {
+    public func kmy_removePullToRefresh() {
         pullToRefreshView?.disassociateDisplayLink()
         pullToRefreshView?.observing = false
         pullToRefreshView?.removeFromSuperview()
     }
     
-    public func dg_setPullToRefreshBackgroundColor(_ color: UIColor) {
+    public func kmy_setPullToRefreshBackgroundColor(_ color: UIColor) {
         pullToRefreshView?.backgroundColor = color
     }
     
-    public func dg_setPullToRefreshFillColor(_ color: UIColor) {
+    public func kmy_setPullToRefreshFillColor(_ color: UIColor) {
         pullToRefreshView?.fillColor = color
     }
     
-    public func dg_stopLoading() {
+    public func kmy_stopLoading() {
         pullToRefreshView?.stopLoading()
     }
 
-    public func dg_startLoading() {
+    public func kmy_startLoading() {
         pullToRefreshView?.startLoading()
     }
 }
@@ -139,7 +139,7 @@ public extension UIScrollView {
 // MARK: (UIView) Extension
 
 public extension UIView {
-    func dg_center(_ usePresentationLayerIfPossible: Bool) -> CGPoint {
+    func kmy_center(_ usePresentationLayerIfPossible: Bool) -> CGPoint {
         if usePresentationLayerIfPossible, let presentationLayer = layer.presentation() {
             // Position can be used as a center, because anchorPoint is (0.5, 0.5)
             return presentationLayer.position
@@ -152,7 +152,7 @@ public extension UIView {
 // MARK: (UIPanGestureRecognizer) Extension
 
 public extension UIPanGestureRecognizer {
-    func dg_resign() {
+    func kmy_resign() {
         isEnabled = false
         isEnabled = true
     }
@@ -162,7 +162,7 @@ public extension UIPanGestureRecognizer {
 // MARK: (UIGestureRecognizerState) Extension
 
 public extension UIGestureRecognizer.State {
-    func dg_isAnyOf(_ values: [UIGestureRecognizer.State]) -> Bool {
+    func kmy_isAnyOf(_ values: [UIGestureRecognizer.State]) -> Bool {
         return values.contains(where: { $0 == self })
     }
 }

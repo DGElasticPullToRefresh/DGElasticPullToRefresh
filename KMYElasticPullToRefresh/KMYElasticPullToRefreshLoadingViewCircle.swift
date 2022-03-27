@@ -42,9 +42,9 @@ public extension CGFloat {
 }
 
 // MARK: -
-// MARK: DGElasticPullToRefreshLoadingViewCircle
+// MARK: KMYElasticPullToRefreshLoadingViewCircle
 
-open class DGElasticPullToRefreshLoadingViewCircle: DGElasticPullToRefreshLoadingView {
+open class KMYElasticPullToRefreshLoadingViewCircle: KMYElasticPullToRefreshLoadingView {
     
     // MARK: -
     // MARK: Vars

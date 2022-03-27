@@ -33,25 +33,25 @@ class ViewController: UIViewController {
         tableView.backgroundColor = UIColor(red: 250/255.0, green: 250/255.0, blue: 251/255.0, alpha: 1.0)
         view.addSubview(tableView)
         
-        let loadingView = DGElasticPullToRefreshLoadingViewCircle()
+        let loadingView = KMYElasticPullToRefreshLoadingViewCircle()
         loadingView.tintColor = UIColor(red: 78/255.0, green: 221/255.0, blue: 200/255.0, alpha: 1.0)
-        tableView.dg_addPullToRefreshWithActionHandler({ [weak self] () -> Void in
+        tableView.kmy_addPullToRefreshWithActionHandler({ [weak self] () -> Void in
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Double(Int64(1.5 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC), execute: {
-                self?.tableView.dg_stopLoading()
+                self?.tableView.kmy_stopLoading()
             })
         }, loadingView: loadingView)
-        tableView.dg_setPullToRefreshFillColor(UIColor(red: 57/255.0, green: 67/255.0, blue: 89/255.0, alpha: 1.0))
-        tableView.dg_setPullToRefreshBackgroundColor(tableView.backgroundColor!)
+        tableView.kmy_setPullToRefreshFillColor(UIColor(red: 57/255.0, green: 67/255.0, blue: 89/255.0, alpha: 1.0))
+        tableView.kmy_setPullToRefreshBackgroundColor(tableView.backgroundColor!)
     }
     
     deinit {
-        tableView.dg_removePullToRefresh()
+        tableView.kmy_removePullToRefresh()
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-        tableView.dg_startLoading()
+        tableView.kmy_startLoading()
     }
     
 }

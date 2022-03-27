@@ -26,7 +26,7 @@ SOFTWARE.
 
 import UIKit
 
-open class DGElasticPullToRefreshLoadingView: UIView {
+open class KMYElasticPullToRefreshLoadingView: UIView {
     
     // MARK: -
     // MARK: Vars
